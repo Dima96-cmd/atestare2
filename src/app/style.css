@@ -1,0 +1,117 @@
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  
+  .word-scramble-game {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:20px;
+      height:100vh
+    }
+    h1 {
+      margin-top:2rem
+    }
+    .word-display {
+      display:flex;
+      font-size:2em;
+      width:50%;
+      justify-content:center;
+      margin:20px;
+      padding:10px;
+      gap:15px
+    }
+    .scrambled-letters {
+      width:50%;
+      display:flex;
+      justify-content:center;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap
+    }
+    .letter-button {
+      all:unset;
+      font-size:2em;
+      font-weight:700;
+      color:#000;
+      background-color:#fff;
+      border:2px solid #000;
+      border-radius:5px;
+      padding:10px;
+      text-align:center;
+      text-transform:uppercase;
+      cursor:pointer
+    }
+    .disabled {
+      background-color:#ccc;
+      color:#000;
+      cursor:not-allowed
+    }
+    .win {
+      color:green
+    }
+    .lose {
+      color:red
+    }
+    .correct {
+      font-size:2em
+    }
+    .restart-button {
+      all:unset;
+      font-size:2em;
+      font-weight:700;
+      color:#000;
+      background-color:#fff;
+      border:2px solid #000;
+      border-radius:5px;
+      padding:10px;
+      text-align:center;
+      text-transform:uppercase;
+      cursor:pointer;
+      margin-top:20px;
+      width:200px
+    }  
+
+    .alphabet-buttons{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 2rem;
+        gap: 1rem;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .letter-button{
+        all:unset;
+        font-size:2rem;
+        font-weight:700;
+        color:#333;
+        margin:.5rem;
+        border:1px solid #ccc;
+        border-radius:4px;
+        padding:.5rem;
+        text-align:center;
+        cursor:pointer
+    }
+    .disabled {
+        background-color:#ccc;
+        color:#999;
+        cursor:not-allowed
+      }
+   
+   .container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  height: 100vh;
+   }

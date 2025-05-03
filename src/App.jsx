@@ -1,5 +1,11 @@
+import Spanzaratoare from './app/Spanzaratoare';
+
 function App() {
-    return <></>;
+    return (
+        <>
+            <Spanzaratoare />
+        </>
+    );
 }
 
 export default App;
